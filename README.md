@@ -37,15 +37,12 @@ Projenin nasıl çalıştığını gösteren 1-3 dakikalık bir tanıtım videos
 Kullanıcı sitenin linkine tıkladığında giriş yap ekranıyla karşılaşacaktır.Giriş bilgilerini girdikten sonra sistem açılacaktır.
 ### Giriş Yapma Ekranı
 ![Giriş Yapma Ekranı](giris_yap.png)
-
 Kullanıcı dilediği miktarda hedef alışkanlık girdikten sonra toplam hedef sayısını,tamamlanan alışkanlık sayısını ve tamamlanma durumlarına göre başarı yüzdesini görebilmektedir.
 ### Sistem Görüntüsü
-![Sistem Görüntüsü](sistem_goruntuleri/sistem_goruntusu.png)
-
+![Sistem Görüntüsü](sistem_goruntusu.png)
 Dilerse kullanıcı mevcut bir alışkanlığı düzenle butonuna tıklayarak hedefte bazı değişiklikler yapabilmektedir.
 ### Düzenleme Ekranı
 ![Düzenleme Ekranı](duzenleme_ekrani.png)
-
 
 ## Hazırlayan
 Ezgi Bigez
