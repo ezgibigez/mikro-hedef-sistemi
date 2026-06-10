@@ -1,8 +1,10 @@
 Bu proje geliştirilirken bazı aşamalarda fikir alma,teknik konuların anlaşılması gibi durumlar için yapay zekaya sorular yönetilmiştir.Ancak projenin tasarımı,kod yapıs
 ve genel geliştirme süreci tarafımca yapılmıştır.
 
-
+**soru**
 ben bir php mysql projesi oluşturacağım ve hocalarım bana hosting bilgileri verdi ben bu projeyi önce localde yapıp daha sonra kosting e yüklemeyi düşünüyorum.bu sıralama doğru mu
+
+**cevap**
 Evet, bu sıralama genellikle doğru ve en yaygın kullanılan yöntemdir:
 
 1. **Projeyi local ortamda geliştirirsiniz**
@@ -147,7 +149,8 @@ Bu yapı, alışkanlık takip uygulamaları için en uygun ve yaygın kullanıla
 
 
 
- kullanıcının sadece kendi alışkanlıklarını görmesini nasıl sağlayabilirim?
+**soru** kullanıcının sadece kendi alışkanlıklarını görmesini nasıl sağlayabilirim?
+**cevap**
  Bunun için her kullanıcının verilerini kendi hesabıyla ilişkilendirmeniz gerekir. Genel mantık şöyledir:
 
 ### 1. Kullanıcı tablosu
@@ -219,7 +222,9 @@ Böylece kullanıcı URL üzerinden başka bir alışkanlığın ID'sini yazsa b
 
 
 
-Session nedir ve kullanıcı oturumu nasıl yönetilir?
+**soru**Session nedir ve kullanıcı oturumu nasıl yönetilir?
+
+**cevap**
 
 **Session (oturum)**, bir kullanıcının web sitesinde yaptığı işlemleri sayfalar arasında takip etmek için kullanılan bir mekanizmadır.
 
@@ -354,9 +359,10 @@ Ayrıca:
 Bir **alışkanlık takip projesi** için tipik akış:
 **Kayıt Ol → Giriş Yap → Session Oluştur → user_id ile verileri filtrele → Çıkış Yapınca Session'ı sil** şeklindedir. Bu yapı çoğu PHP web uygulamasının temelini oluşturur.
 
-
+**soru**
 PHP projesi hostinge nasıl taşınır? filezilla mı kullamalıyım yoksa başka bir uygulamamı
 
+**cevap**
 Evet, **FileZilla kullanmak en yaygın yöntemlerden biridir**, ancak hosting firmanızın sunduğu araçlara göre başka seçenekler de olabilir.
 
 ## Yöntem 1: FileZilla (Önerilen)
@@ -468,9 +474,10 @@ gibi bilgileri kontrol edin.
 
 Eğer hocalarınızın verdiği hosting bilgilerini (şifreleri gizleyerek) paylaşırsanız, hangi yöntemle bağlanmanız gerektiğini ve adım adım yükleme sürecini daha net anlatabilirim.
 
-
+**soru**
  peki phpMyAdmin'den alınan SQL dosyası hostinge nasıl aktarılır bu işlemi filezilla dan sonra yapmalıyım değil mi
-
+ 
+**cevap**
 Evet, genellikle **önce dosyaları yükleyip sonra veritabanını aktarmak** daha düzenli bir yöntemdir. Ancak teknik olarak sıra çok kritik değildir; önemli olan siteyi açmadan önce hem dosyaların hem de veritabanının hazır olmasıdır.
 
 ### phpMyAdmin'den SQL Dosyasını Alma
