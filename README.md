@@ -33,6 +33,14 @@ Projenin nasıl çalıştığını gösteren 1-3 dakikalık bir tanıtım videos
 
 ## 📸 Ekran Görüntüleri
 
+### Giriş Yapma Ekranı
+![Giriş Yapma Ekranı](giris_yap.png)
+
+### Düzenleme Ekranı
+![Düzenleme Ekranı](duzenleme_ekrani.png)
+
+### Sistem Görüntüsü
+![Sistem Görüntüsü](sistem_goruntusu.png)
 
 
 
